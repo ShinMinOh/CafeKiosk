@@ -1,15 +1,15 @@
-package com.example.cafekiosk.unit;
+package com.example.cafekiosk.unit.beverage;
 
 public class Americano implements Beverage{
 
 
     @Override
     public String getName() {
-        return null;
+        return "아메리카노";
     }
 
     @Override
     public int getPrice() {
-        return 0;
+        return 4000;
     }
 }
